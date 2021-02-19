@@ -76,8 +76,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="adapter.h" />
+    <ClInclude Include="AdapterTest.h" />
+    <ClInclude Include="Bag.h" />
+    <ClInclude Include="BridgeTest.h" />
     <ClInclude Include="ConstructorArg.h" />
     <ClInclude Include="ConstructorArgBuilder.h" />
+    <ClInclude Include="DecoratorTest.h" />
+    <ClInclude Include="IColor.h" />
+    <ClInclude Include="Morrigan.h" />
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <ItemGroup>

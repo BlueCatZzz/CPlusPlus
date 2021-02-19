@@ -1,9 +1,13 @@
 #include "Singleton.h"
 #include "ConstructorArgBuilder.h"
+#include "BridgeTest.h"
+#include "DecoratorTest.h"
+#include "AdapterTest.h"
 
 int main()
 {
-	Class type;
-	auto ptr = ConstructorArgBuilder<std::string>::Build(true, type, std::string());
+	TestBridge();
+	TestDecorator();
+	TestAdapter();
 	return 0;
 }

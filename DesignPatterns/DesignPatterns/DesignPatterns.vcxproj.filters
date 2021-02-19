@@ -19,6 +19,15 @@
     <Filter Include="源文件\Builder">
       <UniqueIdentifier>{967c4021-c2a4-467c-b195-d5a045e557be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Bridge">
+      <UniqueIdentifier>{ffb191b0-e674-480e-98d4-a1c37f4b756c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Decorator">
+      <UniqueIdentifier>{98f6e6f7-e296-4f0e-a8a6-761ba7d918c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Adapter">
+      <UniqueIdentifier>{1d0a1429-3285-4339-92a6-e0e2f23b486c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Singleton.h">
@@ -29,6 +38,27 @@
     </ClInclude>
     <ClInclude Include="ConstructorArg.h">
       <Filter>源文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="IColor.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeTest.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Morrigan.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorTest.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="adapter.h">
+      <Filter>源文件\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterTest.h">
+      <Filter>源文件\Adapter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
