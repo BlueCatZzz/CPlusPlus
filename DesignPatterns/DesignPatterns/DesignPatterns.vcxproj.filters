@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Singleton">
+      <UniqueIdentifier>{c0b6270b-a038-461e-b834-3c427410ad2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Builder">
+      <UniqueIdentifier>{967c4021-c2a4-467c-b195-d5a045e557be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bridge">
+      <UniqueIdentifier>{ffb191b0-e674-480e-98d4-a1c37f4b756c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Decorator">
+      <UniqueIdentifier>{98f6e6f7-e296-4f0e-a8a6-761ba7d918c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Adapter">
+      <UniqueIdentifier>{1d0a1429-3285-4339-92a6-e0e2f23b486c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>源文件\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructorArgBuilder.h">
+      <Filter>源文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructorArg.h">
+      <Filter>源文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="IColor.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeTest.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Morrigan.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorTest.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="adapter.h">
+      <Filter>源文件\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterTest.h">
+      <Filter>源文件\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="file_util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
