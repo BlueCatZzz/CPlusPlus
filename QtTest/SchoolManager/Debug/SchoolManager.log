@@ -1,0 +1,36 @@
+﻿生成启动时间为 2021/4/1 17:51:40。
+     1>项目“F:\GitProjects\QtTest\SchoolManager\SchoolManager.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\SchoolManager.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT\QtInstall\5.5\msvc2010\include /I.\GeneratedFiles\Debug /ID:\QT\QtInstall\5.5\msvc2010\include\QtCore /ID:\QT\QtInstall\5.5\msvc2010\include\QtGui /ID:\QT\QtInstall\5.5\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt class_info.cpp student_info.cpp
+         class_info.cpp
+         student_info.cpp
+         正在生成代码...
+         所有输出均为最新。
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitProjects\QtTest\SchoolManager\Win32\Debug\\SchoolManager.exe" /NOLOGO /LIBPATH:D:\QT\QtInstall\5.5\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SchoolManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\GitProjects\QtTest\SchoolManager\Win32\Debug\SchoolManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitProjects\QtTest\SchoolManager\Win32\Debug\SchoolManager.lib" /MACHINE:X86 Debug\class_info.obj
+         Debug\moc_school_manager.obj
+         Debug\moc_school_manager_wnd.obj
+         Debug\moc_ui_manager.obj
+         Debug\qrc_school_manager.obj
+         Debug\main.obj
+         Debug\school_info.obj
+         Debug\school_manager.obj
+         Debug\school_manager_wnd.obj
+         Debug\student_info.obj
+         Debug\ui_manager.obj
+         LINK : 没有找到 F:\GitProjects\QtTest\SchoolManager\Win32\Debug\\SchoolManager.exe 或上一个增量链接没有生成它；正在执行完全链接
+         SchoolManager.vcxproj -> F:\GitProjects\QtTest\SchoolManager\Win32\Debug\SchoolManager.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\GitProjects\QtTest\SchoolManager\Win32\Debug\\SchoolManager.exe;#1" /manifest Debug\SchoolManager.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SchoolManager.unsuccessfulbuild”。
+         正在对“Debug\SchoolManager.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\GitProjects\QtTest\SchoolManager\SchoolManager.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.70

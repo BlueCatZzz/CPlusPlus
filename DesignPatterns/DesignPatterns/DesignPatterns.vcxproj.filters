@@ -60,9 +60,15 @@
     <ClInclude Include="AdapterTest.h">
       <Filter>源文件\Adapter</Filter>
     </ClInclude>
+    <ClInclude Include="file_util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_util.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

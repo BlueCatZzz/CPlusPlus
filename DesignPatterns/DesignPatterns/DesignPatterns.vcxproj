@@ -83,11 +83,13 @@
     <ClInclude Include="ConstructorArg.h" />
     <ClInclude Include="ConstructorArgBuilder.h" />
     <ClInclude Include="DecoratorTest.h" />
+    <ClInclude Include="file_util.h" />
     <ClInclude Include="IColor.h" />
     <ClInclude Include="Morrigan.h" />
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="file_util.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
