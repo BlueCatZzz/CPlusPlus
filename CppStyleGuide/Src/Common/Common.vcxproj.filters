@@ -5,19 +5,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="headers">
-      <UniqueIdentifier>{bd84b8ad-42ef-48a7-9d29-97f3ca61bb71}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="header.cpp">
-      <Filter>headers</Filter>
-    </ClCompile>
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers.h">
-      <Filter>headers</Filter>
-    </ClInclude>
+    <ClInclude Include="string_utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="string_utils.cpp" />
   </ItemGroup>
 </Project>
