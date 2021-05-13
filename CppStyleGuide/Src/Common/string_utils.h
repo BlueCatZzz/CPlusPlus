@@ -3,14 +3,15 @@
 
 #include <string>
 
-namespace Common
-{
-	class StringUtils
-	{
-	public:
-		static void StrAddOne(std::string& str);
-	private:
-		StringUtils() {};
-	};
+namespace Common {
+namespace StringUtils {
+
+void StrAddOne(std::string& str);
+
+static void StrTest1(std::string& str);
+
+constexpr int StrStr();
+
+}	// namespace StringUtils
 }	// namespace Common
 #endif // COMMON_STRING_UTILS_H

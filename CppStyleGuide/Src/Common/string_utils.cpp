@@ -1,9 +1,23 @@
 #include "string_utils.h"
 
-namespace Common
+namespace Common {
+namespace StringUtils {
+
+void StrAddOne(std::string& str)
 {
-	void StringUtils::StrAddOne(std::string& str)
-	{
-		return;
-	}
+	StrTest1(str);
+	return;
+}
+
+static void StrTest1(std::string& str)
+{
+	return;
+}
+
+constexpr int StrStr()
+{
+	return 5;
+}
+
+}	// namespace StringUtils
 }	// namespace Common
