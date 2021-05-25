@@ -153,9 +153,15 @@
   <ItemGroup>
     <ClCompile Include="header.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="scope.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scope.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cpp_style_guide.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

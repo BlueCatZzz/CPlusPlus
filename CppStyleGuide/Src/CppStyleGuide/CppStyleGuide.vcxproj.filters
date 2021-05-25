@@ -8,16 +8,31 @@
     <Filter Include="headers">
       <UniqueIdentifier>{bd84b8ad-42ef-48a7-9d29-97f3ca61bb71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="scope">
+      <UniqueIdentifier>{0066654a-1445-4de9-a7ff-3da8e3a41ffc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="header.cpp">
       <Filter>headers</Filter>
     </ClCompile>
+    <ClCompile Include="scope.cpp">
+      <Filter>scope</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers.h">
       <Filter>headers</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scope.h">
+      <Filter>scope</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cpp_style_guide.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

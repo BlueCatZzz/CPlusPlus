@@ -10,6 +10,9 @@ int main()
 	auto&& headers = builder.Create();
 	if (nullptr == headers)
 		std::cout << "headers is nullptr." << std::endl;
+	auto member1 = headers->GetConstMember1();
+	member1 = 2;
+	auto member2 = headers->GetConstMember1();
 	std::cin.get();
 	return 0;
 }
