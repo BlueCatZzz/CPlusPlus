@@ -11,6 +11,9 @@
     <Filter Include="scope">
       <UniqueIdentifier>{0066654a-1445-4de9-a7ff-3da8e3a41ffc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="class">
+      <UniqueIdentifier>{10e59abe-e750-442d-b962-267562fecb74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -20,6 +23,9 @@
     <ClCompile Include="scope.cpp">
       <Filter>scope</Filter>
     </ClCompile>
+    <ClCompile Include="class.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers.h">
@@ -28,6 +34,9 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="scope.h">
       <Filter>scope</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>class</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

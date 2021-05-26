@@ -151,11 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="class.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="scope.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="class.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="scope.h" />
