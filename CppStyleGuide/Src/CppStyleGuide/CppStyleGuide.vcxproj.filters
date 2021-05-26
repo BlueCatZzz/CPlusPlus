@@ -14,6 +14,15 @@
     <Filter Include="class">
       <UniqueIdentifier>{10e59abe-e750-442d-b962-267562fecb74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{0daf79a4-bcf1-412b-904e-0d31ccb08923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{fa6fc342-b6ab-4351-bbd5-7750e831f8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="standard">
+      <UniqueIdentifier>{ff780e8f-14af-4fd4-8b90-bee5ed77737e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -26,6 +35,15 @@
     <ClCompile Include="class.cpp">
       <Filter>class</Filter>
     </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>function</Filter>
+    </ClCompile>
+    <ClCompile Include="other.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="standard.cpp">
+      <Filter>standard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers.h">
@@ -37,6 +55,15 @@
     </ClInclude>
     <ClInclude Include="class.h">
       <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>function</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="standard.h">
+      <Filter>standard</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

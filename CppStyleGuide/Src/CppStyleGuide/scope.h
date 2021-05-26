@@ -17,6 +17,8 @@ class Scope
 {
 public:
 	Scope();
+	Scope(const Scope&) = delete;
+	Scope& operator=(const Scope&) = delete;
 };
 }	// namespace CppStyleGuide
 

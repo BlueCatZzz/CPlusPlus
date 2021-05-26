@@ -152,15 +152,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class.cpp" />
+    <ClCompile Include="function.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="other.cpp" />
     <ClCompile Include="scope.cpp" />
+    <ClCompile Include="standard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="class.h" />
+    <ClInclude Include="function.h" />
     <ClInclude Include="headers.h" />
+    <ClInclude Include="other.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="scope.h" />
+    <ClInclude Include="standard.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="cpp_style_guide.rc" />

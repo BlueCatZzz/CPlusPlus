@@ -1,6 +1,7 @@
 #include "headers.h"
 #include <iostream>
 #include "Common/string_utils.h"
+#include "standard.h"
 int main()
 {
 	std::string str = "111";
@@ -13,6 +14,11 @@ int main()
 	auto member1 = headers->GetConstMember1();
 	member1 = 2;
 	auto member2 = headers->GetConstMember1();
+	CppStyleGuide::StandardBuilder standard_builder;
+	auto standard = standard_builder.Create();
+	if (nullptr == standard)
+		return 0;
+	std::cout << standard->GetHeight();
 	std::cin.get();
 	return 0;
 }
